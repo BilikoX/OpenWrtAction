@@ -33,9 +33,12 @@ lede_value='{
   "OS": "ubuntu-latest"
 }'
 
-openwrt_platforms=(X86 R2S R3S R4S R4SE R5C R5S R6C R6S)
-immortalwrt_platforms=(X86 R2S R3S R4S R4SE R5C R5S R6C R6S R66S R68S)
-lede_platforms=(X86 R2S R3S R4S R4SE R5C R5S R6C R6S H28K H29K H66K H68K H69K R66S R68S)
+# openwrt_platforms=(X86 R2S R3S R4S R4SE R5C R5S R6C R6S)
+# immortalwrt_platforms=(X86 R2S R3S R4S R4SE R5C R5S R6C R6S R66S R68S)
+# lede_platforms=(X86 R2S R3S R4S R4SE R5C R5S R6C R6S H28K H29K H66K H68K H69K R66S R68S)
+openwrt_platforms=(R5C)
+immortalwrt_platforms=(R5C)
+lede_platforms=(R5C)
 
 matrix_json="["
 source_matrix_json="["
